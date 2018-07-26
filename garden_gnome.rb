@@ -22,19 +22,19 @@ class GardenGnome
 end
 
 gnome1 = GardenGnome.new
-gnome1.gnaw
+puts gnome1.gnaw
 
 gnome2 = GardenGnome.new
 gnome2.name = "Walter the Worst"
-gnome2.shout
+puts gnome2.shout
 
 gnome3 = GardenGnome.new
 gnome3.name = "James the Jerk"
 gnome3.age = 3421
-gnome3.introduce_self
+puts gnome3.introduce_self
 
 gnome4 = GardenGnome.new
 gnome4.name = "Alfred the Abhorrent"
 gnome4.age = 79
 gnome4.gluten_allergy = true
-gnome4.introduce_self
+puts gnome4.introduce_self
